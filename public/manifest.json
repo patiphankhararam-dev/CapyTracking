@@ -1,0 +1,16 @@
+{
+  "name": "Capy Tracking - Period Tracker",
+  "short_name": "Capy Tracking",
+  "description": "เว็บแอปติดตามรอบเดือน (Period Tracker) แบบ Mobile-first ใช้งานง่าย นุ่มนวล ไม่ต้อง Login",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9F6",
+  "theme_color": "#FFF9F6",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

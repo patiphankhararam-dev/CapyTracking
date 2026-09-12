@@ -1,0 +1,6 @@
+{
+  "name": "Capy Tracking",
+  "description": "เว็บแอปติดตามรอบเดือน (Period Tracker) แบบ Mobile-first ใช้งานง่าย นุ่มนวล ไม่ต้อง Login",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

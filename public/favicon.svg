@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="capyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D98C9A"/>
+      <stop offset="100%" stop-color="#B85C72"/>
+    </linearGradient>
+    <linearGradient id="bodyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C68B59"/>
+      <stop offset="100%" stop-color="#9C6638"/>
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="48" fill="#FFF0F3" stroke="#EEDDE0" stroke-width="3"/>
+  <!-- Capybara Head Base -->
+  <rect x="25" y="32" width="50" height="42" rx="20" fill="url(#bodyGrad)"/>
+  <!-- Muzzle -->
+  <rect x="28" y="46" width="44" height="28" rx="14" fill="#B37845"/>
+  <!-- Ears -->
+  <ellipse cx="27" cy="32" rx="6" ry="8" fill="#8A5529"/>
+  <ellipse cx="73" cy="32" rx="6" ry="8" fill="#8A5529"/>
+  <!-- Eyes -->
+  <ellipse cx="38" cy="42" rx="3.5" ry="4" fill="#2B1E16"/>
+  <ellipse cx="62" cy="42" rx="3.5" ry="4" fill="#2B1E16"/>
+  <circle cx="39.5" cy="40.5" r="1.2" fill="#FFFFFF"/>
+  <circle cx="63.5" cy="40.5" r="1.2" fill="#FFFFFF"/>
+  <!-- Cheeks Blush -->
+  <ellipse cx="32" cy="52" rx="5" ry="3" fill="#F4A7B9" opacity="0.8"/>
+  <ellipse cx="68" cy="52" rx="5" ry="3" fill="#F4A7B9" opacity="0.8"/>
+  <!-- Nose / Mouth -->
+  <ellipse cx="50" cy="56" rx="4" ry="2.5" fill="#422917"/>
+  <path d="M50 58.5 L50 64 M47 62 Q50 65 53 62" stroke="#422917" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  <!-- Cute Flower on Ear -->
+  <circle cx="72" cy="26" r="4.5" fill="#FFB7C5"/>
+  <circle cx="72" cy="26" r="2" fill="#FFD166"/>
+</svg>
